@@ -1,0 +1,82 @@
+
+.background {
+    position: relative;
+    display: flex;
+    padding-right: 30px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background: contain;
+}
+.dragon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+}
+.mage{
+    position: absolute;
+    display: flex;
+    padding: 0.5;
+    z-index: 10;
+    justify-content: center;
+    
+}
+.viking{
+    position: absolute;
+    display: flex;
+    padding-left: 100px;
+    z-index: 7;
+    justify-content: flex-end;
+
+}
+.assassin{
+    position: absolute;
+    display: flex;
+    padding-left: 100px;
+    z-index: 8;
+    justify-content: flex-end;
+
+}
+.personnage {
+    position: absolute;
+    display: flex;
+    padding-left: 850px;
+    z-index: 5;
+    justify-content: flex-end;
+}
+.nuage {
+    display: flex;
+    padding-left: 800px;
+    justify-content: flex-end;
+    z-index: 4; 
+}
+.dialogue {
+    display: flex;
+    align-self: center;
+    border : solid;
+    z-index: 2;
+}
+.healthbox {
+    display: flex;
+    align-self: center;
+    border : solid;
+    z-index: 6;
+}
+.dragonbox {
+    display: flex;
+    align-self: center;
+    border : solid;
+    z-index: 7;
+}
+.healthbox:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.dialogue:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.dragonbox:hover{
+    background-color: red;
+    cursor: pointer;
+}
